@@ -1,6 +1,3 @@
-! 首頁copilot容器
-github.com##[class^="CopilotChatInputPartial-module__inputContainer"]
-
 ! wiki banner
 wikipedia.org##.cbnnr-container
 
@@ -12,6 +9,8 @@ youtube.com##+js(set, Object.prototype.delhi_modern_web_player, false)
 youtube.com##+js(set, Object.prototype.delhi_modern_web_player_icons, false)
 ! YT訂閱最相關
 youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-rich-section-renderer
+! YT首頁Premium推廣
+youtube.com##ytd-browse[page-subtype="home"] ytd-rich-section-renderer.style-scope
 ! YT探索更多主題
 youtube.com##ytd-chips-shelf-with-video-shelf-renderer
 ! YT影片播放不順嗎?
@@ -24,18 +23,12 @@ youtube.com##.ytp-fullscreen-quick-actions
 youtube.com##ytd-search :is(ytd-shelf-renderer, grid-shelf-view-model) 
 ! YT首頁訂閱內容、個人中心懸停視窗
 youtube.com##+js(aeld, mouseenter, , elements, ytd-mini-guide-entry-renderer) 
-! YT隱藏留言
-youtube.com##ytd-comments
 ! YT首頁隱藏合輯
 youtube.com##ytd-rich-item-renderer:has([href*="start_radio=1"])
 ! YT側邊欄隱藏合輯
 youtube.com##ytd-compact-radio-renderer, :is(#related yt-lockup-view-model,ytd-compact-video-renderer):has([href*="&start_radio=1"])
 ! YT搜尋結果隱藏合輯
-youtube.com##ytd-radio-renderer, :is(ytd-search yt-lockup-view-model,ytd-video-renderer[is-search]):has([href*="&start_radio=1"][aria-haspopup])
-! YT解決緩衝（實驗性）
-youtube.com##+js(nano-stb, resolve(1), *, 0.001)
-youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.web_enable_ab_rsp_cl, false)
-youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.ab_pl_man, false) 
+youtube.com##ytd-radio-renderer, :is(ytd-search yt-lockup-view-model,ytd-video-renderer[is-search]):has([href*="&start_radio=1"][aria-haspopup]) 
 ! YT首頁隱藏貼文
 youtube.com##ytd-browse[page-subtype="home"] ytd-rich-item-renderer[is-post]
 ! YT片尾隱藏推薦影片
@@ -55,11 +48,5 @@ wnacg.com##img[src*=".shop"]
 wnacg.com##a[href*="erodatalabs.com"]
 wnacg.com##img[src*="erodatalabs.com"]
 
-
-
-
-
-
-
-
-
+! instagram首頁feed
+www.instagram.com##.x1nhvcw1.x1oa3qoh.x6s0dn4.xqjyukv.xdt5ytf.x2lah0s.x1c4vz4f.xryxfnj.x1plvlek.x1uhb9sk.xbiv7yw.x16uus16.x1ga7v0g.x15mokao.x78zum5.xjbqb8w.x9f619.x1c1uobl.x18d9i69.xyri2b.xexx8yu.x1lziwak.xat24cr.x14z9mp.xdj266r.html-div
