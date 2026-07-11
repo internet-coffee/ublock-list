@@ -13,3 +13,8 @@ www.google.com##[data-subtree="mfc"]
 www.google.com##[data-subtree="mfc,mfl"]
 www.google.com###Odp5De:has(> div.YNk70c.EjQTId > div.Kevs9.SLPe5b > div[jscontroller] > div#eKIzJc > div.YzCcne > div.hdzaWe > div[data-attnms])
 www.google.com##div.YNk70c.EjQTId:has(+ div[data-hveid] > div[data-hveid] > div#Odp5De > div.YNk70c.EjQTId > div.Kevs9.SLPe5b > div[jscontroller] > div#eKIzJc > div.YzCcne > div.hdzaWe > div[data-attnms])
+
+ivonblog.com##.content-warning-overlay
+ivonblog.com##html.content-warning-locked:style(overflow: auto !important;)
+
+www.threads.com##body>div:last-of-type:not([id]):has([role="dialog"])
