@@ -6,6 +6,7 @@ www.instagram.com##.x1nhvcw1.x1oa3qoh.x6s0dn4.xqjyukv.xdt5ytf.x2lah0s.x1c4vz4f.x
 
 wnacg.com##a[href*=".shop"]
 wnacg.com##a[href*="/link-index-aid-"]
+wnacg.com##a[href*="cloudfront.net"]
 
 www.google.com##[data-aquarium]
 www.google.com##[data-attnms]
