@@ -44,9 +44,23 @@ www.google.com##div.YNk70c.EjQTId:has(+ div[data-hveid] > div[data-hveid] > div#
 
 ! https://wnacg.com
 wnacg.com##a[href*=".shop"]
-wnacg.com##img[src*=".shop"]
-wnacg.com##a[href*="erodatalabs.com"]
-wnacg.com##img[src*="erodatalabs.com"]
+wnacg.com##a[href*="/link-index-aid-"]
+wnacg.com##a[href*="attributionId"]
 
 ! instagram首頁feed
 www.instagram.com##.x1nhvcw1.x1oa3qoh.x6s0dn4.xqjyukv.xdt5ytf.x2lah0s.x1c4vz4f.xryxfnj.x1plvlek.x1uhb9sk.xbiv7yw.x16uus16.x1ga7v0g.x15mokao.x78zum5.xjbqb8w.x9f619.x1c1uobl.x18d9i69.xyri2b.xexx8yu.x1lziwak.xat24cr.x14z9mp.xdj266r.html-div
+! instagram背景播放
+instagram.com##+js(aeld, visibilitychange)
+
+! Gelbooru廣告
+gelbooru.com##video
+
+ivonblog.com##.content-warning-overlay
+ivonblog.com##html.content-warning-locked:style(overflow: auto !important;)
+
+! Threads免登入觀看
+www.threads.com##body>div:last-of-type:not([id]):has([role="dialog"])
+
+! Gelbooru 縮圖尺寸與間距優化
+gelbooru.com##article.thumbnail-preview img:style(max-width: 250px !important; max-height: 250px !important;)
+gelbooru.com##.thumbnail-preview:style(width: 250px !important; height: 250px !important; margin-top: 20px !important; margin-left: 10px !important; margin-right: 10px !important;)
