@@ -1,14 +1,18 @@
 ! Title: Brave自訂過濾器
 
+! block instagram feed
 www.instagram.com##.x1nhvcw1.x1oa3qoh.x6s0dn4.xqjyukv.xdt5ytf.x2lah0s.x1c4vz4f.xryxfnj.x1plvlek.x1uhb9sk.xbiv7yw.x16uus16.x1ga7v0g.x15mokao.x78zum5.xjbqb8w.x9f619.x1c1uobl.x18d9i69.xyri2b.xexx8yu.x1lziwak.xat24cr.x14z9mp.xdj266r.html-div
 
+! theverge paywall
 ||theverge.com/zephr/
 
+! wnacg ads
 wnacg.com##a[href*=".shop"]
 wnacg.com##a[href*="/link-index-aid-"]
 wnacg.com##a[href*="attributionId"]
 wnacg.com##.dv-section:has(.dv-rec-grid)
 
+! Google AI overview
 www.google.com##[data-aquarium]
 www.google.com##[data-attnms]
 www.google.com##[data-subtree="mfc"]
@@ -16,7 +20,12 @@ www.google.com##[data-subtree="mfc,mfl"]
 www.google.com###Odp5De:has(> div.YNk70c.EjQTId > div.Kevs9.SLPe5b > div[jscontroller] > div#eKIzJc > div.YzCcne > div.hdzaWe > div[data-attnms])
 www.google.com##div.YNk70c.EjQTId:has(+ div[data-hveid] > div[data-hveid] > div#Odp5De > div.YNk70c.EjQTId > div.Kevs9.SLPe5b > div[jscontroller] > div#eKIzJc > div.YzCcne > div.hdzaWe > div[data-attnms])
 
+! ivonblog NSFW block
 ivonblog.com##.content-warning-overlay
 ivonblog.com##html.content-warning-locked:style(overflow: auto !important;)
 
+! Threads login block
 www.threads.com##body>div:last-of-type:not([id]):has([role="dialog"])
+
+! DuckDuckGo mobile footer
+duckduckgo.com##.footer > div
