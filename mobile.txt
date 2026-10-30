@@ -29,3 +29,6 @@ www.threads.com##body>div:last-of-type:not([id]):has([role="dialog"])
 
 ! DuckDuckGo mobile footer
 duckduckgo.com##.footer > div
+
+! Pixiv premium promotion
+www.pixiv.net##.banner
