@@ -32,3 +32,6 @@ duckduckgo.com##.footer > div
 
 ! Pixiv premium promotion
 www.pixiv.net##.banner
+
+! XDA video ads
+www.xda-developers.com##div#adsninja-ad-zone-companion
